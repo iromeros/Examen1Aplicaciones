@@ -1,0 +1,78 @@
+@import url("https://fonts.google.com/specimen/Raleway");
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color_fons_botons: Red;
+    --color_texte: White;
+    --color_hover: LightCoral; /* color per quan l'usuari passa damunt l'element */
+    --color_fons_form: rgba(121, 120, 110, 0.7); /* color fons formulari de registre */
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(255, 255, 255, 0.2)), url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    font-size: 200%;
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-family: 'Raleway';
+    height: auto;
+}
+
+.boton{
+    text-decoration: none;
+    color: var(--color_texte);
+    background-color: var(--color_fons_botons);
+    border: 3px solid white;
+    border-radius: 10%;
+    padding: 4px;
+}
+.azul{
+    padding: 50vh;
+    align-content: center;
+}
+a:hover{
+    color: var(--color_hover);
+}
+.menu{
+    text-align: right;
+    color: var(--color_texte);
+}
+.logo{
+    text-align: left;
+}
+nav{
+    align-content: top;
+}
+.footer{
+    text-align: right;
+    color: black;
+}
+h5{
+    align-content: center;
+}
+.imagenes{
+ align-content: center;   
+}
+.contingut{
+    align-content: center;
+}
+.boton2{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 10%;
+    padding: 4px;
+}
+a{
+    color: var(--color_texte);
+}
